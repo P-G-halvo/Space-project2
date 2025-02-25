@@ -1,0 +1,105 @@
+html { 
+    scroll-behavior: smooth; 
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    max-width: 1920px;
+}
+
+.nav_bar{
+    height: 108px;
+    
+}
+
+.section_2{
+    max-height: 3240px;
+}
+
+.section, .section_3{
+    max-height: 2160px;
+}
+
+.footer{
+    height: 216px;
+}
+
+
+
+
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-image: linear-gradient(to left, #E17637, #E17637, #000,  #000, #000);
+    align-items: center;
+    padding-left: 41px;
+    padding-right: 41px;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    font-family:"Inknut Antiqua",serif;
+    font-size:12px;
+    text-align: center;
+    line-height: 24px;
+    width:170px;
+}
+
+.logo h1{
+    font-weight: 200;
+    display: block;
+    text-align: center;
+    
+}
+
+/* .break{
+    display: block;
+    line-height: 0;
+    text-align: center;
+    
+} */
+
+
+.info{
+    display: flex;
+    max-width: 610px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: space-between;
+    font-size: 18px;
+    font-family: "Rosarivo",serif;
+}
+
+.info h2{
+    padding: 12px;
+    font-weight:400;
+}
+
+.section{
+    display: flex;
+    justify-content: end;
+    background-color: #000;
+}
+
+.img_1{
+    max-width:960px;
+    position : right;
+}
+
+.text_1{
+    flex-direction: column;
+    margin-left: 20px;
+  
+}
+
+.text_1 h1{
+    margin-bottom: 50px;
+}
