@@ -6,11 +6,13 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* outline: 2px red solid; */
 }
 
 body{
     color: white;
     max-width: 1920px;
+    background-color: #000;
 }
 
 .nav_bar{
@@ -39,7 +41,7 @@ body{
     justify-content:space-between;
     background-image: linear-gradient(to left, #E17637, #E17637, #000,  #000, #000);
     align-items: center;
-    padding-left: 41px;
+    padding-left: 0px;
     padding-right: 41px;
     position: sticky;
     top: 0;
@@ -60,14 +62,6 @@ body{
     
 }
 
-/* .break{
-    display: block;
-    line-height: 0;
-    text-align: center;
-    
-} */
-
-
 .info{
     display: flex;
     max-width: 610px;
@@ -76,6 +70,7 @@ body{
     align-items: space-between;
     font-size: 18px;
     font-family: "Rosarivo",serif;
+    
 }
 
 .info h2{
@@ -83,20 +78,28 @@ body{
     font-weight:400;
 }
 
-.section{
+
+.section_1{
     display: flex;
-    justify-content: end;
+    flex-direction: row-reverse;
     background-color: #000;
+    font-family: "Rosarivo",serif;
+    font-weight: 100;
+    font-size: 14px;
 }
 
-.img_1{
+#img_1{
     max-width:960px;
-    position : right;
+    
 }
 
 .text_1{
     flex-direction: column;
-    margin-left: 20px;
+    justify-content: flex-start;
+    padding-left: 20px;
+    
+
+  
   
 }
 
@@ -105,6 +108,183 @@ body{
     
 }
 
-.galaxy_img{
-    width: 1920px;
+.text_1 p{
+    padding-bottom:20px;
+}
+
+#fun_fact{
+    position: absolute;
+    top: 880px;
+    right: 650px;
+    min-width: 270px;
+}
+
+.section_1_5{
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 1920px;
+    background-color: #000;
+    padding-top: 200px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.quote_1{
+    font-size: 14px;
+    font-weight: 100;
+    text-align: center;
+    font-family: "Rosarivo",serif;
+    padding-bottom: 40px;
+}
+
+.section_1_5 h3 p{
+    font-size: 14px;
+    font-weight: 100;
+}
+
+
+
+
+#galaxy_img{
+    max-width: 1331px;
+    
+    
+}
+
+
+
+.title_1_5{
+    text-align: center;
+    margin-bottom: 25px;
+   
+}
+
+.tekst_1_5{
+    text-align: center;
+}
+
+.section_2_1{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    max-height: 3240px;
+    font-family: "Rosarivo",serif;
+}
+
+.section_2_1 .text {
+    text-align: center;
+    flex-flow: column wrap;
+    padding-bottom: 85px;
+}
+
+.section_2_1 h1{
+    font-weight: 100;
+    font-size: 36px;
+}
+
+#sec_2_1_text{
+    font-size: 12px;
+}
+#sec_2_1_img{
+    display: flex;
+    justify-content: left;
+    height: 1350px;
+}
+.quote h3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: "Rosarivo",serif;
+    font-size: 12px;
+    font-weight: 100;
+    padding-top: 250px;
+}
+
+.section_2_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 2160px;
+    font-family: "Rosarivo",serif;
+}
+
+.section_2_2 .text {
+    text-align: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    padding-bottom: 85px;
+}
+
+.section_2_2 h1{
+    font-weight: 100;
+    font-size: 36px;
+}
+
+#sec_2_2_text{
+    font-size: 12px;
+}
+#sec_2_2_img{
+    display: flex;
+    justify-content: center;
+    width: 1350px;
+}
+
+.section_3_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 3240px;
+    font-family: "Rosarivo",serif;
+}
+
+.section_3_1 .text {
+    text-align: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    padding-bottom: 85px;
+}
+
+.section_3_1 h1{
+    font-weight: 100;
+    font-size: 36px;
+}
+
+.section_3_1 p{
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#sec_3_1_text{
+    font-size: 12px;
+}
+#sec_3_1_img{
+    display: flex;
+    justify-content: center;
+    width: 427px;
+}
+
+#sec_3_2_img{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #101010;
+    height: 130px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.ship{
+    height:50px;
+    width: 50px;
 }
