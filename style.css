@@ -90,6 +90,11 @@ body{
     font-size: 14px;
 }
 
+.section_1 h1{
+    font-size: 36px;
+    font-weight: 100;
+}
+
 #img_1{
     max-width:960px;
     
@@ -147,11 +152,17 @@ body{
     padding-bottom: 40px;
 }
 
-.section_1_5 h3 p{
+.section_1_5 p{
     font-size: 14px;
     font-weight: 100;
     
 }
+
+.section_1_5 h1{
+    font-size: 36px;
+    font-weight: 100;
+}
+
 
 
 
