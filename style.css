@@ -45,6 +45,8 @@ body{
     padding-right: 41px;
     position: sticky;
     top: 0;
+    z-index: 100;
+    
 }
 
 .logo{
@@ -112,11 +114,17 @@ body{
     padding-bottom:20px;
 }
 
+
+
 #fun_fact{
     position: absolute;
     top: 880px;
     right: 650px;
     min-width: 270px;
+    font-family: "Rosarivo",serif;
+    font-size: 14px;
+    font-weight: 100;
+    
 }
 
 .section_1_5{
@@ -127,7 +135,7 @@ body{
     padding-top: 200px;
     justify-content: center;
     align-items: center;
-
+    font-family: "Rosarivo", serif;
 
 }
 
@@ -142,6 +150,7 @@ body{
 .section_1_5 h3 p{
     font-size: 14px;
     font-weight: 100;
+    
 }
 
 
@@ -282,6 +291,7 @@ body{
     height: 130px;
     padding-left: 40px;
     padding-right: 40px;
+    font-family:"Rosarivo", serif ;
 }
 
 .ship{
